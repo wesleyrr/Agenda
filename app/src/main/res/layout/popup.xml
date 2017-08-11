@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:padding="2dp"
+        android:src="@mipmap/ic_launcher2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popup_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Nome"
+            android:hint="Nome"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/popup_snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Avaliação"
+            android:text="Avaliação"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/popup_endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereco"
+            android:textSize="10sp"/>
+
+        <RatingBar
+            android:id="@+id/popup_nota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:theme="@style/RatingBar"
+            android:layout_gravity="left"
+            android:max="10"
+            android:numStars="5"
+            android:rating="4"/>
+
+    </LinearLayout>
+
+</LinearLayout>

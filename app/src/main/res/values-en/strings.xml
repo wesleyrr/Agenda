@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Vacancies</string>
+    <string name="campo_nome">Name</string>
+    <string name="campo_endereco">Address</string>
+    <string name="campo_telefone">Phone</string>
+    <string name="campo_site">Site</string>
+    <string name="tela_cadastro">Register</string>
+    <string name="tela_provas">Test</string>
+    <string name="tela_provas_detalhes">Details</string>
+    <string name="menu_item_enviar_notas">Send notes</string>
+    <string name="menu_item_baixar_provas">Download tests</string>
+    <string name="menu_mapa_opcoes">Options</string>
+    <string name="menu_mapa_fornecedores">Partiners</string>
+
+    <!--teste NavigationLayout-->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

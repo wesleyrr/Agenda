@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activity.ListaAlunosActivity">
+
+    <item
+        android:title="@string/menu_mapa_opcoes"
+        android:icon="@drawable/ic_drawer"
+        app:showAsAction="always" >
+
+        <menu>
+            <group  >
+                <item
+                    android:id="@+id/menu_visualizar_fornecedores"
+                    android:title="@string/menu_mapa_fornecedores">
+                </item>
+                <item
+                    android:id="@+id/menu_como_funciona"
+                    android:title="Como funciona">
+                </item>
+                <item
+                    android:id="@+id/menu_fale_conosco"
+                    android:title="Fale conosco">
+                </item>
+                <item
+                    android:id="@+id/menu_reclamacoes"
+                    android:title="Reclamações, sugestões e críticas">
+                </item>
+                <item
+                    android:id="@+id/menu_estilo_mapa_dia"
+                    android:title="Mudar estilo mapa dia">
+                </item>
+                <item
+                    android:id="@+id/menu_estilo_mapa_noite"
+                    android:title="Mudar estilo noite">
+                </item>
+            </group>
+
+
+        </menu>
+    </item>
+
+</menu>

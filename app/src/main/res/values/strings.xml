@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vagas</string>
+    <string name="campo_nome">Nome</string>
+    <string name="campo_endereco">Endereço</string>
+    <string name="campo_telefone">Telefone</string>
+    <string name="campo_site">Site</string>
+    <string name="tela_cadastro">Cadastro</string>
+    <string name="tela_provas">Provas</string>
+    <string name="tela_provas_detalhes">Detalhes</string>
+    <string name="menu_item_enviar_notas">Enviar notas</string>
+    <string name="menu_item_baixar_provas">Baixar provas</string>
+    <string name="menu_mapa_opcoes">Opções</string>
+    <string name="menu_mapa_fornecedores">Parceiros</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--teste NavigationLayout-->
+    <string-array name="planets_array">
+        <item>Mercúrio</item>
+        <item>Venus</item>
+        <item>Terra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Netuno</item>
+    </string-array>
+    <string name="drawer_open">Abrir menu de navegação</string>
+    <string name="drawer_close">Fechar menu de navegação</string>
+    <string name="action_websearch">Pesquisar na Web</string>
+    <string name="app_not_available">Desculpe, não há browser web</string>
+    <string name="title_activity_locais">LocaisActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
